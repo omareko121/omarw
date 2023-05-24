@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+
+header {
+    height: 100vh;
+   background: url("./صور-قطرات-الماء-في-البوم-خلفيات-HD-لقطرة-الماء-5.jpg") center center/cover no-repeat;
+}
+
+
+#navbar img {
+
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 90px;
+}
+
+#navbar {
+    justify-content: space-between;
+
+    align-items: center;
+    display: flex;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+
+}
+
+#navbar ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+#footer{
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+#footer a {
+    color:#001aff;
+}
+/* fotter End */
+
+#navbar ul a:hover {
+   color: aquamarine;
+
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba( 0, 0, 0, 0.4);
+}
+
+header * {
+
+    z-index: 40;
+
+}
+
+
+.content span {
+    color: red;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+}
+
+.content h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.content p {
+    margin: 20px 0 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffae00;
+}
+
+#ob ,
+#problem ,
+#results ,
+#communication  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    color: black;
+    height: 100vh;
+}
+
+
+#ob {
+   
+
+    background-color: chocolate;
+}
+
+#problem {
+    background-color: aqua;
+}
+
+#results {
+    background: url("./pexels-pixabay-235985.jpg") center center/cover no-repeat;
+}
+
+#ob h2 ,
+#problem h2 ,
+#results h2 ,
+#communication h2 {
+  
+    font-size: 40px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+    height: 50%;
+}
+
+#communication h2 {
+    margin-top: 5rem;
+}
+
+#communication span {
+    color: red;
+}
+
+#problem h2 {
+    color: rgb(0, 0, 0);
+}
+
+#ob h2 {
+    color: #383848;
+}
+
+#ob p ,
+#problem p {
+    font-size: 30px;
+    font-weight: 600 ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 1px;
+    height: 1%;
+    line-height: 1.5;
+
+
+
+}
+
+#tab {
+   margin: 2rem;
+   color: #fff;
+    background-color: #383848;
+   
+}
+
+
+
+table tr {
+    background-color: #383848;
+    color: #fff;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#communication p {
+    font-size: 20px;
+    font-weight: 600 ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 12px;
+    height: 80%;
+    line-height: 1.5;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: rgb(145, 66, 66);
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    transition: all 0.7s;
+    margin-top: 2rem;
+
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border: 1px solid #572e2e;
+}
+
+#results p {
+    font-size: 20px;
+    font-weight: 600 ;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 12px;
+    height: 80%;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+#communication {
+    background: url("./istockphoto-1323860984-612x612.jpg") center center/cover no-repeat;
+    color: #fff;
+}
+
+#communication::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba( 0, 0, 0, 0.6);
+}
+
+#communication * {
+
+    z-index: 20;
+
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 20px 35px;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+}
+
+.btn-soce {
+    color: #fff;
+    background: #383848;
+    margin-top: 2rem;
+}
+
+.btn-soce:hover{
+    background-color: #fff;
+    color: black;
+}
+
+
+#footer{
+    background: #000000;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+#footer a {
+    color:#001aff;
+}
+
+#navbar ul a {
+    padding: 15px 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+/* wep end */
+
+
+@media(max-width: 950px){
+
+    #navbar ul  {
+    
+        margin-right: 20px;
+    }
+
+    #navbar img {
+
+       
+        margin-left: 20px;
+        width: 100px;
+    }
+
+    .content h1 {
+        font-size: 31px;
+        font-weight: 700;
+        color: #fff;
+    }
+    
+  
+}
+
+@media(max-width: 600px){
+    #navbar {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .content h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .content p {
+        font-size: 19px;
+        margin: 0;
+
+    }
+
+    #navbar ul {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+        margin-top: 2rem;
+       
+    }
+
+    #navbar {
+        justify-content: center;
+    
+        align-items: center;
+        display: flex;
+    }
+
+
+    p {
+        font-size: 12px;
+    }
+
+
+    #ob ,
+   #problem ,
+   #results ,
+   #communication {
+    height: auto;
+   }
+    
+
+#communication h2 {
+    font-size: 24px;
+}
+
+#communication p,
+#problem p ,
+#results p ,
+#ob p {
+    font-size: 12px;
+    margin: 1rem;
+}
+
+
+
+
+
+}
+
+
